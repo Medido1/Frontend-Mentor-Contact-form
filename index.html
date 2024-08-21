@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | Contact form</title>
+</head>
+<body>
+  <div class="form_container">
+    <form action="" class="form">
+      <h1>Contact Us</h1>
+      <div class="input_grp">
+        <label for="first_name">First Name *</label>
+        <input type="text" name="first_name" id="first_name">
+      </div>
+      <div class="input_grp">
+        <label for="last_name">Last Name *</label>
+        <input type="text" name="last_name" id="last_name">
+      </div>
+      <div class="input_grp">
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email">
+      </div>
+      <fieldset>
+        <legend>Query Type *</legend>
+        <div class="radio_input">
+          <input type="radio" name="query_type" id="general">
+          <label for="general">General Enquiry</label>
+        </div>
+        <div class="radio_input">
+          <input type="radio" name="query_type" id="support">
+          <label for="support">Support Request</label>
+        </div>
+      </fieldset>
+      <div class="message_container">
+        <label for="message">message</label>
+        <textarea name="message" id="message" rows="5" cols="10"></textarea>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
