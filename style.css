@@ -33,7 +33,7 @@ input, button, textarea, select {
 /* document styling */
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--Green_200_lighter);
   display: flex;
   padding: 1rem;
@@ -66,4 +66,45 @@ body {
   outline: none;
   border: 1px solid var(--Grey_500_medium);
   padding: 1rem;
+}
+
+fieldset {
+  border: 0;
+}
+
+fieldset legend {
+  margin-bottom: .5rem;
+}
+
+.radio_input {
+  border: 1px solid var(--Grey_500_medium);
+  padding: 1rem;
+  margin-bottom: .5rem;
+  border-radius: .5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.message_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_container textarea {
+  border-radius: .5rem;
+}
+
+.checkbox_input {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.btn {
+  background-color: var(--Green_600_medium);
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  color: var(--White);
+  outline: none;
+  border: 0;
 }
