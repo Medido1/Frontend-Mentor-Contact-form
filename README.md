@@ -34,13 +34,13 @@ Users should be able to:
 ### Screenshot
 
 # Desktop
-![](./sceenShots/desktopss.png)
+![](./screenShots/desktopss.png)
 # Error handleing
-![](./sceenShots/errorHandanding.png)
+![](./screenShots/errorHandanding.png)
 # Completed Form
-![](./sceenShots/completedForm.png)
+![](./screenShots/completedForm.png)
 # Mobile
-![](./sceenShots/mobileSS.png)
+![](./screenShots/mobileSS.png)
 
 ### Links
 
