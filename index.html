@@ -18,13 +18,15 @@
   <div class="form_container">
     <form action="" class="form">
       <h1>Contact Us</h1>
-      <div class="input_grp">
-        <label for="first_name">First Name *</label>
-        <input type="text" name="first_name" id="first_name" aria-required="true">
-      </div>
-      <div class="input_grp">
-        <label for="last_name">Last Name *</label>
-        <input type="text" name="last_name" id="last_name" aria-required="true">
+      <div class="name_info">
+        <div class="input_grp">
+          <label for="first_name">First Name *</label>
+          <input type="text" name="first_name" id="first_name" aria-required="true">
+        </div>
+        <div class="input_grp">
+          <label for="last_name">Last Name *</label>
+          <input type="text" name="last_name" id="last_name" aria-required="true">
+        </div>
       </div>
       <div class="input_grp">
         <label for="email">Email Address *</label>
@@ -43,10 +45,11 @@
       </fieldset>
       <div class="message_container">
         <label for="message">message *</label>
-        <textarea name="message" id="message" rows="5" cols="1"></textarea>
+        <textarea name="message" id="message" rows="3" cols="1"></textarea>
       </div>
       <div class="checkbox_input">
         <input type="checkbox" name="consent" id="consent">
+        <span class="checkbox_container"></span>
         <label for="consent">
           I consent to being contacted by the team *
         </label>
