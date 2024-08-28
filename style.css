@@ -46,6 +46,10 @@ body {
   cursor: pointer;
 }
 
+.input_grp input:focus {
+  border: 1px solid var(--Green_600_medium);
+}
+
 .form_container {
   background-color: var(--White);
   width: 100%;
@@ -81,6 +85,7 @@ h1 {
 
 fieldset {
   border: 0;
+  position: relative;
 }
 
 fieldset legend {
@@ -111,9 +116,10 @@ fieldset legend {
 .checkbox_input {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .btn {
@@ -194,6 +200,18 @@ fieldset legend {
   background-size: cover;
   background-position: center;
   border: .5px solid var(--Green_200_lighter);
+}
+/* error handeling */
+.error_msg {
+  color: var(--Red);
+  font-size: .875rem;
+}
+.error_msg.hidden {
+  display: none;
+}
+fieldset .error_msg {
+  position: absolute;
+  bottom: -14%;
 }
 
 @media (min-width: 768px) {
