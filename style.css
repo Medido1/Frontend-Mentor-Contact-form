@@ -108,3 +108,30 @@ fieldset legend {
   outline: none;
   border: 0;
 }
+
+.sucess_state {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  right: 2%;
+  background-color: var(--Grey_900_darker);
+  color: var(--White);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.top_state {
+  display: flex;
+  gap: 1rem;
+  font-weight: 700;
+}
+
+.sucess_state>p {
+  font-size: .875rem;
+  color: var(--Grey_500_medium);
+  margin-top: 1rem;
+}
+
+.sucess_state.hidden {
+  display: none;
+}
