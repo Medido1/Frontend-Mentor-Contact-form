@@ -38,14 +38,14 @@ Users should be able to:
 # Error handleing
 ![](./sceenShots/errorHandanding.png)
 # Completed Form
-![](./sceenShots//completedForm.png)
+![](./sceenShots/completedForm.png)
 # Mobile
 ![](./sceenShots/mobileSS.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Medido1/Frontend-Mentor-Contact-form)
-- Live Site URL: [Add live site URL here](https://medido1.github.io/Frontend-Mentor-Contact-form/)
+- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Contact-form)
+- Live Site URL: [live site](https://medido1.github.io/Frontend-Mentor-Contact-form/)
 
 ## My process
 
